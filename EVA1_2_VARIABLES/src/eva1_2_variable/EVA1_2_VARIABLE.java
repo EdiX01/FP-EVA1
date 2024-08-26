@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package eva1_2_variable;
 
-/**
- *
- * @author EdiX
- */
 public class EVA1_2_VARIABLE {
 
     /**
@@ -39,6 +32,17 @@ public class EVA1_2_VARIABLE {
     String nombre;
     String apellido;
     String curp;
-    float promedio;
+    double promedio;
+    int edad;
+    edad = 18; //ASIGNACION: estoy colocando el valor de 18
+               //dentro de la variable edad
+    nombre = "RUBEN ALONSO";
+    apellido = "HERNANDEZ CHAVEZ";
+    promedio = 1.0;
+    System.out.println(edad);
+    System.out.println(nombre);
+    System.out.println(apellido);
+    System.out.println(promedio);
+    
     }
 }
